@@ -1,6 +1,6 @@
 
 
-.pie-chart-container {
+/* .pie-chart-container {
   background-color: white;
   margin-left: auto;
   margin-right: auto;
@@ -12,49 +12,49 @@
   display: flex;
   justify-content: center;
   text-align: center;
-}
+} */
 
 
 // Sales purchase styleling
-.chart-container {
+/* .chart-container {
   width: 620px;
   margin-left: 2rem;
   background-color: white;
   border-radius: 0.5rem;
-}
+} */
 /// dashboard styling
 
-.dashboard-container {
-  padding-top: 2.5rem; /* Equivalent to pt-10 */
-  padding-left: 2rem; /* Equivalent to ps-8 */
-  background-color: #F0F4F8; /* Equivalent to bg-[#F0F4F8] */
-}
+/* .dashboard-container {
+  padding-top: 2.5rem;
+  padding-left: 2rem;
+  background-color: #F0F4F8;
+} */
 
-.flex-container {
-  display: flex; /* Equivalent to flex */
-}
+/* .flex-container {
+  display: flex;
+} */
 
-.flex-item {
-  display: inline-flex; /* Equivalent to flex-inlline */
-  padding-left: 2rem; /* Equivalent to ps-8 */
-}
+/* .flex-item {
+  display: inline-flex;
+  padding-left: 2rem;
+} */
 
-.padding-top-8 {
-  padding-top: 2rem; /* Equivalent to pt-8 */
-}
+/* .padding-top-8 {
+  padding-top: 2rem;
+} */
 
 ///customer data styling
-.pie-chart-container {
+/* .pie-chart-container {
   width: 500px;
   background-color: white;
   border-radius: 0.5rem;
   margin-left: 2rem;
-}
+} */
 
 ////topselling
 
-.top-chart-container {
+/* .top-chart-container {
   width: 500px;
   background-color: white;
   border-radius: 0.5rem;
-}
+} */
