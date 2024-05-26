@@ -10,7 +10,7 @@ import CardComponent from './CardComponent';
 
 const Dashboard = () => {
   return (
-    <div className="dashboard-container">
+    <div className="dashboard-container p-4">
       <CardComponent />
       <div style={{ display: 'flex', width: '100%', justifyContent: 'space-between', alignItems: 'center' }}>
         <div  style={{Width:'100%', Height:'100%', padding: '20px'}}  >

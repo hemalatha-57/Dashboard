@@ -96,8 +96,8 @@ const TableComponent = () => {
   ];
 
   return (
-    <div style={{padding:'10vw'}}>
-      <Table columns={columns} dataSource={data}
+    <div style={{padding:'12vw', background:'lightgrey'}}>
+      <Table  columns={columns} dataSource={data}
     />
     </div>
   );
