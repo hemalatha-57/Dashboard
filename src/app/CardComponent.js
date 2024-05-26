@@ -4,79 +4,38 @@ import React from "react";
 
 const CardComponent = () => {
   return (
-    <div>
-      <div className="  ">
-        <Row gutter={8}>
-          <Col span={12}>
-            <Card className="h-[140px] p-4 border-slate-900">
-              <PercentageOutlined
-                className="float-start	"
-                style={{ fontSize: "350%", color: "#6366F1" }}
-              />
-
-              <span className="float-end	text-end">
-                <b className="text-[#686869]">
-                  SALES
-                  <br></br>
-                  <span className="text-black text-2xl">$5312.00</span>
-                </b>
-              </span>
-            </Card>
-          </Col>
-          <Col span={12}>
-            <Card className="h-[140px] p-4  border-slate-900">
-              <PercentageOutlined
-                className="float-start	"
-                style={{ fontSize: "350%", color: "#6366F1" }}
-              />
-
-              <span className="float-end	text-end">
-                <b className="text-[#686869]">
-                  PURCHASES
-                  <br></br>
-                  <span className="text-black text-2xl">$5312.00</span>
-                </b>
-              </span>
-            </Card>
-          </Col>
-        </Row>
+   <div className="space-y-4">
+      <div className="grid lg:grid-cols-2 grid-cols-1 gap-2">
+        <div className="h-36 p-4 border border-slate-900 flex justify-between items-center">
+          <PercentageOutlined className="text-4xl text-indigo-500" />
+          <div className="text-right">
+            <div className="text-gray-600">SALES</div>
+            <div className="text-2xl text-black">$5312.00</div>
+          </div>
+        </div>
+        <div className="h-36 p-4 border border-slate-900 flex justify-between items-center">
+          <PercentageOutlined className="text-4xl text-indigo-500" />
+          <div className="text-right">
+            <div className="text-gray-600">PURCHASES</div>
+            <div className="text-2xl text-black">$5312.00</div>
+          </div>
+        </div>
+         <div className="h-36 p-4 border border-slate-900 flex justify-between items-center">
+          <DollarCircleOutlined className="text-4xl text-indigo-500" />
+          <div className="text-right">
+            <div className="text-gray-600">SALES RETURN</div>
+            <div className="text-2xl text-black">$5312.00</div>
+          </div>
+        </div>
+        <div className="h-36 p-4 border border-slate-900 flex justify-between items-center">
+          <PercentageOutlined className="text-4xl text-indigo-500" />
+          <div className="text-right">
+            <div className="text-gray-600">PURCHASES RETURN</div>
+            <div className="text-2xl text-black">$5312.00</div>
+          </div>
+        </div>
       </div>
-      <div className="  ">
-        <Row gutter={10}>
-          <Col span={12}>
-            <Card className="h-[140px] p-4  border-slate-900">
-              <DollarCircleOutlined
-                className="float-start	"
-                style={{ fontSize: "350%", color: "#6366F1" }}
-              />
 
-              <span className="float-end	text-end">
-                <b className="text-[#686869]">
-                  SALES RETURN
-                  <br></br>
-                  <span className="text-black text-2xl">$5312.00</span>
-                </b>
-              </span>
-            </Card>
-          </Col>
-          <Col span={12}>
-            <Card className="h-[140px] p-4  border-slate-900">
-              <PercentageOutlined
-                className="float-start	"
-                style={{ fontSize: "350%", color: "#6366F1" }}
-              />
-
-              <span className="float-end	text-end">
-                <b className="text-[#686869]">
-                  PURCHASES RETURN
-                  <br></br>
-                  <span className="text-black text-2xl">$5312.00</span>
-                </b>
-              </span>
-            </Card>
-          </Col>
-        </Row>
-      </div>
     </div>
   );
 };

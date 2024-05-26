@@ -12,12 +12,12 @@ const Dashboard = () => {
   return (
     <div className="dashboard-container p-4">
       <CardComponent />
-      <div style={{ display: 'flex', width: '100%', justifyContent: 'space-between', alignItems: 'center' }}>
-        <div  style={{Width:'100%', Height:'100%', padding: '20px'}}  >
+      <div className=' grid lg:grid-cols-2 grid-cols-1' >
+        <div  className=' col-span-1'  >
           <TopSellingPieChart className="flex-item" />
           </div>
 
-        <div  style={{Width:'100%', Height:'100%'}} >
+        <div  className=' col-span-1'  >
           <Customer className="flex-item" />
           </div>
 

@@ -96,9 +96,11 @@ const TableComponent = () => {
   ];
 
   return (
-    <div style={{padding:'12vw', background:'lightgrey'}}>
-      <Table  columns={columns} dataSource={data}
+    <div className=' p-4'>
+      <div className=" w-full overflow-x-auto">
+         <Table  columns={columns} dataSource={data}
     />
+     </div>
     </div>
   );
 };
